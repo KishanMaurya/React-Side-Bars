@@ -4,8 +4,7 @@ import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import { SidebarData} from './NavbarData'
-
-
+import './Navbar.css'
 const Navbar = () => {
     const [sidebar , setSideBar]=useState(false)
     const showsidebar=()=>setSideBar(!sidebar)
